@@ -15,5 +15,6 @@
   <img src="Grupo.jpeg" alt="grupo">
   <p>Autor: Felipe S. Silva</p>
   <p>Autor: Thiago Augusto</p>
+  <p>Autor: Matheus Faneco</p>
 </div>
 
