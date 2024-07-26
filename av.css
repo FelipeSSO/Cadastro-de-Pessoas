@@ -16,8 +16,16 @@ form {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(0, 26, 255);
     width: 300px;
+}
+
+.imagem_fundo {
+    width: 300xp;
+    height: 200xp;
+    background-image: url(formulário-de-referência.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 h2 {
