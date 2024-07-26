@@ -10,13 +10,21 @@ body {
     height: 100vh;
     margin: 0;
 }
+.imagem_fundo {
+    width: 300px;
+    height: 300px;
+    background-image: url('formulário-de-referência.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+  }
+  
 
 /* Estilos para o formulário */
 form {
-    background-color: #fff;
+    background-color: #f5f7af;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(210, 229, 4, 0.852);
     width: 300px;
 }
 
@@ -34,22 +42,22 @@ input[type="text"] {
     width: calc(100% - 20px); /* Subtrai 20px para compensar o padding do input */
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #86f880;
     border-radius: 4px;
 }
 
 input[type="text"]:focus {
     outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: #85f80b;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.99);
 }
 
 /* Estilizando o botão (opcional) */
 input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #ff0077;
+    color: #2bbf0db1;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -58,3 +66,5 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+
